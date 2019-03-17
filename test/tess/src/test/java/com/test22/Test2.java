@@ -85,7 +85,6 @@ driver.quit();
 
         driver = new ChromeDriver(options);
         driver.get("http://localhost/lifecard/en/");
-        driver.navigate().refresh();
        List<WebElement> ducks  = driver.findElementsByXPath("//div[@id='main']//li[@class='product column shadow hover-light']");
        System.out.println(ducks.size());
        WebElement stiker = driver.findElement(By.xpath("//*[starts-with(@class,\"sticker\")]"));
@@ -93,7 +92,7 @@ driver.quit();
 
         for (WebElement label : ducks)
         {
-            driver.navigate().refresh();
+            
 
             if (label.isSelected()){
 
