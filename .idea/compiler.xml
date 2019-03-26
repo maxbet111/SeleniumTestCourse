@@ -2,8 +2,12 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="11" target="1.8" />
+      <module name="com.test.tess.main" target="1.8" />
+      <module name="com.test.tess.test" target="1.8" />
       <module name="com.test.test.main" target="1.8" />
-      <module name="com.test.test.test" target="1.8" />
+      <module name="SeleniumTestCourse.com.test.test.test" target="1.8" />
+      <module name="test.com.test.test.main" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
